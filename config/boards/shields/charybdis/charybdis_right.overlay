@@ -120,8 +120,12 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
+        scroll_mode {
+            layers = <3>;
+            input-processors = <>;
+        };
+
         input-processors = <&zip_temp_layer 5 10000>;
     };
 };
-
 
