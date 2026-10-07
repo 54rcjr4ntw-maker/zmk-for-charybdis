@@ -94,5 +94,16 @@
                                 &trans  &trans    &trans
             >;
         };
-    };
+        auto_mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
+                                &trans  &trans    &trans
+            >;
+        };
+   };
+
 };
